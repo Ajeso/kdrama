@@ -1,4 +1,5 @@
 <script>
+	import '../app.css';
 	import Header from './Components/Header.svelte';
 
 	export let data;
