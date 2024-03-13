@@ -1,11 +1,8 @@
-<script>
-	import '../app.css';
+<script context="module">
 	import Header from './Components/Header.svelte';
-
-	export let data;
-
+	import { siteName } from './+page.server.js';
 	let headerData = {
-		siteName: data.siteName,
+		siteName: siteName,
 		navLinks: [{ text: 'dramacool.pa', url: 'https://dramacool.pa' }]
 	};
 </script>
